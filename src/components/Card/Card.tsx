@@ -17,6 +17,7 @@ export const Card = ({pathProduct, title, description, types, price}: Props) => 
       <div className="card__photo_container">
         <img className="card__photo" src={pathProduct} width='320px' height='320px' loading="lazy" alt="Чебурек" />
       </div>
+      <div className="card__bottom_container">
       <div className="card__bottom">
         <h2 className="card__title">{title}</h2>
         <p className="card__description">{description}</p>
@@ -29,6 +30,7 @@ export const Card = ({pathProduct, title, description, types, price}: Props) => 
           <span className="card__price">{price} ₽</span>
           <ButtonOrder text="Заказать" />
         </div>
+      </div>
       </div>
     </div>
   )
