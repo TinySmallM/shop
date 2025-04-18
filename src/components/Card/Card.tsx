@@ -19,7 +19,7 @@ export const Card = ({pathProduct, title, description, types, price}: Props) => 
       </div>
       <div className="card__bottom">
         <h2 className="card__title">{title}</h2>
-        <span className="card__description">{description}</span>
+        <p className="card__description">{description}</p>
         <div className="card__types">
           {types.map((type) => (
             <button className="card__type" key={type.id}>{type.text}</button>

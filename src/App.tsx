@@ -37,7 +37,7 @@ const products: Product[] = [
     pt: 'https://img.freepik.com/premium-photo/homemade-fried-cheburek-pies-with-meat-top-view_199073-375.jpg?w=996',
     title: 'Чебур c соусом',
     description: `Здесь будет описание товара.
-    У некоторых товаров описание может быть коротким, а у некоторых - длинным.`,
+    У некоторых товаров/`,
     types: [{
       id: 'Cтандарт',
       text: 'Cтандарт'
@@ -60,7 +60,7 @@ const products: Product[] = [
     id: 4,
     pt: 'https://img.freepik.com/premium-photo/homemade-fried-cheburek-pies-with-meat-top-view_199073-375.jpg?w=996',
     title: 'Чебур c соусом',
-    description: `Здесь будет описание товара.
+    description: `Здесь будет описание товара. Здесь будет описание товара. Здесь будет описание товара.
     У некоторых товаров описание может быть коротким, а у некоторых - длинным.`,
     types: [{
       id: 'Cтандарт',

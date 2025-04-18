@@ -15,3 +15,10 @@
 .ButtonOrder:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 576px) { 
+  .ButtonOrder {
+    padding: 14px;
+    font-size: calc(var(--standartFontSize) - 4px);
+  }
+}
